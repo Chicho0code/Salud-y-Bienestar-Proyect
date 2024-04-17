@@ -1,10 +1,10 @@
-## Pagina Sobre Salud y Bienestar
+# Pagina Sobre Salud y Bienestar
 
 Proyecto de estudiantes de RollingCode - Comisión 95i para proyecto final de primer modulo. 
 
 Los Integrantes son:
 
-### Team Salud y Bienestar��‍♂️ - 9❤️
+### Team Salud y Bienestar:
 
 -   [ ] **Integrante 1**: Lisbet Costilla
 -   [ ] **Integrante 2**: Facundo Alvarado
