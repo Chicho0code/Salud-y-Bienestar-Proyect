@@ -112,3 +112,44 @@ header a:hover {
   transition: 0.3s;
   transform: scale(1.07);
 }
+ 
+/* CSS Footer */
+
+#facu {
+  color: black;
+  transition: 0.3;
+}
+
+#facu:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#lia {
+  color: black;
+  transition: 0.3;
+}
+
+#lia:hover {
+  background-color: #eb72ef;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#marce {
+  color: black;
+  transition: 0.3;
+}
+
+#marce:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
