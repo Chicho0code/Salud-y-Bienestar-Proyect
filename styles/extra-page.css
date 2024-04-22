@@ -113,6 +113,36 @@ header a:hover {
   transform: scale(1.07);
 }
 
+/*CSS Carousel Bootstrap*/
+
+.carousel-inner {
+  width: 650px;
+  height: 100vh;
+  transition: opacity 1s ease-in-out;
+}
+
+#titulocard1 {
+  text-align: center;
+  font-size: 35px;
+  padding: 50px;
+}
+
+.cardtitle2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.productos {
+  text-align: center;
+  font-size: 35px;
+  padding: 90px;
+}
+
+#carouselExampleCaptions .carousel-item.active {
+  opacity: 1;
+}
+
 /* CSS Footer */
 
 #facu {
