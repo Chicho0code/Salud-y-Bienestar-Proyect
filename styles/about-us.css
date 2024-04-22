@@ -180,6 +180,29 @@ header a:hover {
   transition: 0.2s;
 }
 
+/* CSS section experience */
+
+.experience {
+  margin: 20px 12px;
+}
+
+.experience h2 {
+  font-size: 32px;
+}
+
+.div-exp {
+  display: flex;
+  gap: 25px;
+}
+
+.div-exp p {
+  font-size: 18px;
+}
+
+.div-exp div {
+  text-align: center;
+}
+
 /* CSS Footer */
 
 #facu {
