@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 * {
@@ -113,6 +113,73 @@ header a:hover {
   transform: scale(1.07);
 }
 
+/* CSS color separator */
+
+.color {
+  height: 15px;
+  width: 100%;
+  background-color: rgb(17, 110, 222);
+}
+
+/* CSS banner */
+
+.banner {
+  position: relative;
+  widows: 100%;
+  height: calc(90vh - 50px);
+  background-image: url(../images/about-us-images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.contenido {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contenido h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenido a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400px;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 4px 19px;
+  transition: 0.2s;
+  filter: blur(30);
+}
+
+.contenido a:hover {
+  background-color: rgb(17, 110, 222);
+  border-color: rgb(17, 110, 222);
+  transition: 0.2s;
+}
+
 /* CSS Footer */
 
 #facu {
@@ -153,3 +220,4 @@ header a:hover {
   transition: 0.3s;
   border-radius: 5px;
 }
+
