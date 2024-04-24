@@ -121,20 +121,90 @@ header a:hover {
   transition: opacity 1s ease-in-out;
 }
 
-#titulocard1 {
+#carouselExampleCaptions .carousel-item.active {
+  opacity: 1;
+}
+
+/*Seccion parrafo intro*/
+
+#titulo1 {
   text-align: center;
   font-size: 35px;
   padding: 50px;
 }
 
-.productos {
+.text-container {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.pro-v {
+  width: 400px;
+}
+
+/*Titulo de cards*/
+
+.titulo2 {
   text-align: center;
   font-size: 35px;
   padding: 90px;
 }
 
-#carouselExampleCaptions .carousel-item.active {
-  opacity: 1;
+/*Seccion de cards*/
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+section article {
+  transition: box-shadow 0.3s ease; 
+  background-color: #000814;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+section article a {
+  text-decoration: none;
+  color: #fefcfb;
+  text-decoration-color: #263f26;
+}
+
+section article:hover {
+  box-shadow: 0.4rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p {
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.categoria {
+  width: 600px;
+  margin: 1.5rem;
+}
+
+.ruleta {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+div img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 8;
+  transition: .5s ease;
+}
+
+div img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 3;
+  filter: contrast(120%)
 }
 
 /* CSS Footer */
