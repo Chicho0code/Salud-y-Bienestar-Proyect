@@ -154,7 +154,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
 }
 
 .container {
@@ -201,7 +200,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+.detmedicon{
+  background: rgb(2,2,89);
+background: linear-gradient(0deg, rgba(2,2,89,1) 32%, rgba(221,221,223,1) 55%);
+}
 
  
 /* CSS Footer */
