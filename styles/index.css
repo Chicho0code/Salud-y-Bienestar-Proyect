@@ -126,7 +126,7 @@ header a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(50%); 
+  filter: brightness(80%); 
 }
 
 .overlay {
@@ -156,8 +156,8 @@ body {
 
 .contenedor {
   max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 10px auto;
+  padding: 10px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -168,9 +168,9 @@ body {
 }
 
 .image {
-  width: 200px; /* Ancho de la imagen */
+  width: 200px; 
   height: auto;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .text {
