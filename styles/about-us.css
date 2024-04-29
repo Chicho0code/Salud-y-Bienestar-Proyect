@@ -219,8 +219,7 @@ header a:hover {
 }
 
 .div-exp div img {
-  height: 350px;
-  width: auto;
+  width: auto; /* La anchura se ajusta automáticamente */  height: 350px; /* Altura inicial de la imagen */
 }
 
 @media (max-width: 1080px) {
@@ -245,8 +244,7 @@ header a:hover {
   }
 
   .div-exp div img {
-    height: 310px;
-    width: 500px;
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
   }
 }
 
@@ -262,6 +260,10 @@ header a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.devs h2 {
+  font-size: 36px;
 }
 .dev-cards {
   align-items: center;
@@ -314,6 +316,61 @@ header a:hover {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (max-width: 1080px) {
+  .devs h2 {
+    font-size: 28px;
+  }
+   .devs div img {
+    height: 160px;
+   }
+
+  .cards-buttons p {
+    font-size: 14px;
+  }
+}
+
+/* CSS tecnologias utilizadas */
+
+.tec {
+  padding: 5px 12px;
+}
+.tec h2 {
+  font-size: 36px;
+  text-align: center;
+  padding: 2px 10px;
+  border-bottom: 2px solid;
+  border-color: rgb(17, 110, 222);
+}
+.tecnologias {
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+}
+
+.lenguajes {
+  height: 100px;
+  width: auto;
+  cursor: pointer;
+}
+
+.boot {
+  fill: #6528e0;
+}
+
+@media (max-width: 1080px) {
+  .tec h2 {
+    font-size: 26px;
+  }
+
+  .lenguajes {
+    height: 75px;
+    width: auto;
+  }
 }
 /* CSS Footer */
 
