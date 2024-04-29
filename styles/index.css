@@ -203,7 +203,14 @@ a:hover {
 background: linear-gradient(0deg, rgba(2,2,89,1) 32%, rgba(221,221,223,1) 55%);
 }
 
- 
+.map-contiene {
+  text-align: center;
+}
+
+.map-contiene iframe {
+  display: inline-block;
+}
+
 /* CSS Footer */
 
 #facu {
