@@ -2,14 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/extra-page.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/extra-page.css">
     <title>Protesis</title>
   </head>
   <body>
@@ -35,54 +30,173 @@
         </ul>
       </header>
     </div>
-    <!-- Contenido Principal -->
-    <!-- Carousel -->
-    <section>
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-4">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/pro-pierna/v-m1.jpg" class="d-block w-100"  alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/pro-bra/v-mb1.jpg" class="d-block w-100"  alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/pro-bra/c-mb2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+  <!-- Contenido Principal -->
+    <!-- Card animación -->
+    <div class="cubierta">
+      <div class="c-anim">
+          <input type="radio" name="slide" id="c1" checked>
+          <label for="c1" class="card">
+              <div class="row">
+                  <div class="icon">P</div>
+                  <div class="description">
+                      <h4>Personalizadas</h4>
+                      <p>Las prótesis biónicas de hoy 
+                        en día son verdaderas 
+                        extensiones del individuo, 
+                        reflejando no solo sus 
+                        necesidades físicas, sino 
+                        también su singularidad y 
+                        esencia como ser humano.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c2" >
+          <label for="c2" class="card">
+              <div class="row">
+                  <div class="icon">r</div>
+                  <div class="description">
+                      <h4>Realista</h4>
+                      <p>Con avances en tecnología 
+                        de materiales y diseño, las 
+                        prótesis biónicas pueden imitar 
+                        de manera sorprendente la 
+                        apariencia y función de los 
+                        miembros naturales.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c3" >
+          <label for="c3" class="card">
+              <div class="row">
+                  <div class="icon">o</div>
+                  <div class="description">
+                      <h4>Optimización</h4>
+                      <p>La constante innovación en la 
+                        ingeniería de prótesis ha 
+                        llevado a mejoras 
+                        significativas en la eficiencia 
+                        y rendimiento, optimizando el 
+                        movimiento y la comodidad del 
+                        usuario.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c4" >
+          <label for="c4" class="card">
+              <div class="row">
+                  <div class="icon">t</div>
+                  <div class="description">
+                      <h4>Tecnología</h4>
+                      <p>Desde exoesqueletos hasta 
+                        brazos y piernas biónicas, 
+                        la integración de tecnologías 
+                        avanzadas como sensores, 
+                        actuadores y sistemas de 
+                        control ha revolucionado la 
+                        funcionalidad de las prótesis.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c5" >
+          <label for="c5" class="card">
+              <div class="row">
+                  <div class="icon">e</div>
+                  <div class="description">
+                      <h4>Empoderamiento</h4>
+                      <p>Estas prótesis no solo 
+                        restauran la funcionalidad 
+                        perdida, sino que también 
+                        empoderan a los usuarios, 
+                        permitiéndoles llevar vidas 
+                        activas y participar 
+                        plenamente en actividades 
+                        cotidianas y deportivas.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c6" >
+          <label for="c6" class="card">
+              <div class="row">
+                  <div class="icon">s</div>
+                  <div class="description">
+                      <h4>Sensibilidad</h4>
+                      <p>Los avances 
+                        en sensores y algoritmos, 
+                        permiten a las prótesis poder 
+                        detectar y responder de manera 
+                        más precisa a los movimientos 
+                        y estímulos del entorno.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c7" >
+          <label for="c7" class="card">
+              <div class="row">
+                  <div class="icon">i</div>
+                  <div class="description">
+                      <h4>Innovación</h4>
+                      <p>La continua investigación 
+                        y desarrollo en el campo 
+                        de las prótesis biónicas 
+                        promete futuros avances 
+                        aún más disruptivo. Transformando radicalmente la calida de vida de las personas</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c8" >
+          <label for="c8" class="card">
+              <div class="row">
+                  <div class="icon">s</div>
+                  <div class="description">
+                      <h4>Solución</h4>
+                      <p>Las prótesis 
+                        biónicas representan una 
+                        solución tangible y esperanzadora, 
+                        ofreciendo nuevas posibilidades y 
+                        oportunidades en su viaje hacia 
+                        la recuperación y la independencia.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c9" >
+          <label for="c9" class="card">
+              <div class="row">
+                  <div class="icon">Bi</div>
+                  <div class="description">
+                      <h4>Exoesqueletos</h4>
+                      <p>Fusionando tecnología avanzada 
+                        con la biomecánica, ofrecen soluciones 
+                        en medicina como en el ámbito militar, 
+                        mejorando la movilidad y el 
+                        rendimiento táctico de manera 
+                        sin precedentes.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c10" >
+          <label for="c10" class="card">
+              <div class="row">
+                  <div class="icon">onic</div>
+                  <div class="description">
+                      <h4>Electrónica</h4>
+                      <p>Las nuevas tecnologías en 
+                        prótesis están llevando la 
+                        ingeniería a nuevos 
+                        horizontes, fusionando la 
+                        biomecánica con la 
+                        electrónica para crear 
+                        dispositivos cada vez más 
+                        sofisticados.</p>
+                  </div>
+              </div>
+          </label>
       </div>
-    </section>
+    </div>
       <!-- Parrafo intro -->
-    <section class="container">
-      <h2 id="titulo1">Una vida sin limitaciones</h2>
-      <div class="row">
-        <div class="col-md-6 text-center" style="font-size: 20px;">
-          <p class="card-text text-container">La búsqueda de avanzar en la vida sin límites es el lema tanto de numerosas empresas 
+    <section class="titulo-parrafo">
+      <h2>Una vida sin limitaciones</h2>
+        <div class="div-int">
+          <p>La búsqueda de avanzar en la vida sin límites es el lema tanto de numerosas empresas 
             especializadas en la fabricación de prótesis como de las diversas personas que han experimentado amputaciones. 
             Las prótesis más modernas están experimentando una evolución hacia una mayor personalización, lo que está 
             teniendo un impacto significativo en aquellos que atraviesan procesos de rehabilitación. Estos dispositivos 
@@ -90,87 +204,92 @@
             vida de sus usuarios. En las interacciones con estos individuos, es común observar una transformación emocional; 
             muchos de ellos pasan de sentir lástima por su situación a admiración por la singularidad y el ingenio que 
             encarnan sus prótesis.
+            <br>
+            Estos dispositivos permiten que estos pacientes con movilidad puedan andar erguidos y desplazarse. Por 
+            ejemplo, personas que sufrieron una lesión de médula espinal y que no pueden caminar o moverse en absoluto 
+            pueden utilizar exoesqueletos para andar erguidos y desplazarse.
           </p>
-        </div>
         <div class="img-parrafo">
-          <img src="/images/pro-pierna/ViktoriaModesta.jpg" class="pro-v" alt="Imagen de prótesis">
+          <img src="/images/pro-bra/pro-8.jpg" alt="Imagen de prótesis">
         </div>
-      </div>
+        </div>
     </section>
       <!-- Titulo de card -->
     <div>
         <article>
             <h1 class="titulo2">Puedes hacer lo que te propongas, da un paso adelante</h1>
+            <p class="parr-intro">Cuando una persona pierde una extremidad debido a una amputación, 
+              el proceso para adaptar una prótesis de forma efectiva a sus 
+              necesidades implica varios pasos y consideraciones importantes. 
+              Aquí hay una descripción general de los pasos típicos y los 
+              tipos de cirugías que pueden ser necesarios:<br>
+            <br>
+            1. Evaluación médica inicial: Después de una amputación, el paciente es evaluado por un equipo médico especializado que incluye cirujanos ortopédicos, fisiatras, terapeutas ocupacionales y otros profesionales de la salud. Se revisa el historial médico del paciente, se evalúa su estado físico actual y se discuten sus objetivos y necesidades individuales.<br>
+            2.   Preparación de la extremidad residual: En algunos casos, puede ser necesario realizar cirugías adicionales para preparar la extremidad residual para la colocación de la prótesis. Esto puede incluir procedimientos para mejorar la forma del muñón, corregir problemas de piel o tejidos blandos, o eliminar tejido cicatricial.<br>
+            3. Moldeado y toma de medidas: Una vez que la extremidad residual está lista, se realiza un molde o escaneo tridimensional para crear una prótesis personalizada que se adapte perfectamente al muñón del paciente. Esto se hace para garantizar un ajuste cómodo y seguro.<br>
+            4. Selección y ajuste de la prótesis: Con base en el molde y las medidas tomadas, se selecciona una prótesis adecuada para las necesidades y preferencias del paciente. La prótesis se ajusta cuidadosamente para garantizar un buen ajuste y funcionalidad. Esto puede implicar ajustes en la longitud, la altura y otros aspectos para asegurar una marcha natural y cómoda.<br>
+            5. Entrenamiento y rehabilitación: Una vez que la prótesis está lista, el paciente recibe entrenamiento y rehabilitación para aprender a usarla correctamente. Esto puede incluir ejercicios para fortalecer los músculos del muñón, técnicas de marcha adecuadas, y actividades para mejorar el equilibrio y la coordinación.<br>
+            6. Seguimiento continuo: Después de recibir la prótesis, el paciente sigue siendo monitoreado de cerca por el equipo médico para realizar ajustes adicionales según sea necesario y asegurar que la prótesis siga siendo efectiva y cómoda a lo largo del tiempo.<br>
+            7. Es importante destacar que el proceso de adaptación de una prótesis puede variar según las necesidades individuales de cada paciente y el tipo y nivel de amputación. Además, las mejoras en la tecnología de las prótesis y los avances en técnicas quirúrgicas continúan mejorando la calidad de vida y la funcionalidad para las personas amputadas.</p>
         </article>
     </div>
     <!-- Seccion Cards -->
-    <section class="container-card">
-      <article class="categoria">
-        <a href="..." class="articulo-enlace">
+    <div class="sec-inferior">
+      <div class="categoria">
+        <div class="articulo-enlace">
             <h2>Exoesqueletos</h2>
-            <p>El alcance que tienen en los...</p>
+            <p>Los exoesqueletos son estructuras 
+              robóticas que se utilizan tanto en 
+              aplicaciones médicas como en 
+              tecnología militar, ofreciendo 
+              beneficios significativos en ambos 
+              campos.</p>
             <div class="ruleta">
-            <img src="/images/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/exoesqueleto2.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/v-mb1.jpg" wid="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/c-mb2.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/exo-n/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/exo-n/exo-2.jpg" wid="400" alt="Presiona para ver más">
+            <img src="/images/exo-n/exo-6.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/exo-n/exo-4.jpg" width="400" alt="Presiona para ver más">
             </div>
-            <p>...</p>
-        </a>
-      </article>
-      <article class="categoria">
-        <a href="..." class="articulo-enlace">
+            <p>Unos de los primeros prototipos de exoesqueletos lo fabrico General Motors en 1965. Tenia la capacidad de levantar 300kg</p>
+          </div>
+        </div>
+      <div class="categoria">
+        <div class="articulo-enlace">
             <h2>Brazos</h2>
-            <p>El alcance que tienen en los...</p>
+            <p>Las prótesis biónicas de brazos 
+              son dispositivos electromecánicos 
+              diseñados para replicar la 
+              función de un brazo humano 
+              perdido debido a una amputación 
+              o una malformación congénita. </p>
             <div class="ruleta">
-            <img src="/images/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/exoesqueleto2.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/v-mb1.jpg" wid="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/c-mb2.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-bra/pro-6.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-bra/pro-28.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-bra/pro-23.jpg" wid="400" alt="Presiona para ver más">
+            <img src="/images/pro-bra/pro-24.jpg" width="400" alt="Presiona para ver más">
             </div>
-            <p>...</p>
-        </a>
-      </article>
-      <article class="categoria">
-        <a href="..." class="articulo-enlace">
+            <p>Estas prótesis incorporan 
+              tecnología avanzada para 
+              ofrecer una mayor 
+              funcionalidad y 
+              naturalidad en comparación 
+              con las prótesis tradicionales.</p>
+            </div>
+          </div>
+      <div class="categoria">
+        <div class="articulo-enlace">
             <h2>Piernas</h2>
-            <p>El alcance que tienen en los...</p>
+            <p>Las prótesis de piernas biónicas están diseñadas para imitar la anatomía y el movimiento natural de una pierna humana.</p>
             <div class="ruleta">
-            <img src="/images/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/exoesqueleto2.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/v-mb1.jpg" wid="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/c-mb2.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-pierna/pro-21.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-pierna/v-m1.jpg" width="400" alt="Presiona para ver más">
+            <img src="/images/pro-pierna/pro-12.jpg" wid="400" alt="Presiona para ver más">
+            <img src="/images/pro-pierna/ViktoriaModesta.jpg" width="400" alt="Presiona para ver más">
             </div>
-            <p>...</p>
-        </a>
-      </article>
-      <article class="categoria">
-        <a href="..." class="articulo-enlace">
-            <h2>Manos</h2>
-            <p>El alcance que tienen en los...</p>
-            <div class="ruleta">
-            <img src="/images/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/exoesqueleto2.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/v-mb1.jpg" wid="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/c-mb2.jpg" width="400" alt="Presiona para ver más">
-            </div>
-            <p>...</p>
-        </a>
-      </article>
-      <article class="categoria">
-        <a href="..." class="articulo-enlace">
-            <h2>Pies</h2>
-            <p>El alcance que tienen en los...</p>
-            <div class="ruleta">
-            <img src="/images/exoesqueleto1.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/exoesqueleto2.jpg" width="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/v-mb1.jpg" wid="400" alt="Presiona para ver más">
-            <img src="/images/pro-bra/c-mb2.jpg" width="400" alt="Presiona para ver más">
-            </div>
-            <p>...</p>
-        </a>
-      </article>
-    </section>       
+            <p>Diseño biomecánico: Esto incluye la capacidad de flexionar y extender la rodilla, el tobillo y el pie, permitiendo al usuario caminar, correr y realizar actividades diarias con mayor facilidad y naturalidad.</p>
+          </div>
+      </div>
+    </div>       
 <footer
       class="bg-white d-flex flex-wrap justify-content-between align-items-center mx-5 my-4 py-2 border-top"
     >
