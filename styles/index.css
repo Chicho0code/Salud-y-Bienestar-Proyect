@@ -222,13 +222,15 @@ a:hover {
 }
 
 /* CSS Footer */
-
-#facu {
+footer ul {
+  gap: 10px;
+}
+.facu {
   color: black;
   transition: 0.3;
 }
 
-#facu:hover {
+.facu:hover {
   background-color: #5583ec;
   color: #fff;
   padding: 2px 3px;
@@ -236,12 +238,12 @@ a:hover {
   border-radius: 5px;
 }
 
-#lia {
+.lia {
   color: black;
   transition: 0.3;
 }
 
-#lia:hover {
+.lia:hover {
   background-color: #eb72ef;
   color: #fff;
   padding: 2px 3px;
@@ -249,12 +251,12 @@ a:hover {
   border-radius: 5px;
 }
 
-#marce {
+.marce {
   color: black;
   transition: 0.3;
 }
 
-#marce:hover {
+.marce:hover {
   background-color: #5583ec;
   color: #fff;
   padding: 2px 3px;
