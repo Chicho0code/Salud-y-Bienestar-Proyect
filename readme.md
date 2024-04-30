@@ -8,11 +8,7 @@ Los Integrantes son:
 
 -   [ ] **Integrante 1**: Lisbet Costilla
 -   [ ] **Integrante 2**: Facundo Alvarado
--   [ ] **Integrante 3**: Aye Alvarado
--   [ ] **Integrante 4**: Gabi Luna
--   [ ] **Integrante 5**: Lucas Lopez
 -   [ ] **Integrante 6**: Marcelo Carreño
--   [ ] **Integrante 7**: Franco Quiroga
 
 ##
 
